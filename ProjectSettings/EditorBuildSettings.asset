@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Onboarding.unity
+    guid: d45f4689ce2fe6442ad9a78f02f357e4
+  - enabled: 1
+    path: Assets/Scenes/RaycastHit 1.unity
+    guid: a961dfde8add8874aabdd40370b6ac1f
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4a75112850e939949bb18b3de25d8908,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3a0119f0edf0c0641a80666804cd4c0f,
+      type: 2}

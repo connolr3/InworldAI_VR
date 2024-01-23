@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f52b7cbc1de94f2fbdaad822b4e3ef4, type: 3}
+  m_Name: ProximityTeleportationStudyDesign
+  m_EditorClassIdentifier: 
+  TrialRepetitions: 2
+  ExperimentRepetitions: 1
+  TrialRandomization: 1
+  TrialPermutationType: 1
+  BlockRandomization: 0
+  BlockPartialRandomizationSubType: 1
+  Factory:
+    IndependentVariables:
+    - rid: 432041535833899008
+    - rid: 432041535833899009
+    - rid: 432041535833899014
+    DependentVariables: []
+    ParticipantVariables:
+    - rid: 432041535833899010
+    - rid: 432041535833899012
+  ExperimentSettings: {fileID: 11400000, guid: 466eed9baf22db947a927a6735e93fca, type: 2}
+  ShowAdvancedEditor: 0
+  BlockOrderIsValid: 1
+  TrialTableGeneration: 0
+  BlockOrderConfigurations: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 432041535833899008
+      type: {class: IndependentVariableString, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Gender
+        VariableType: 1
+        DataType: 3
+        ExpandSettings: 0
+        MixingType: 0
+        Block: 0
+        Values:
+        - Male
+        - Female
+        Probabilities:
+        - 0
+        - 0
+    - rid: 432041535833899009
+      type: {class: IndependentVariableString, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Temperment
+        VariableType: 1
+        DataType: 3
+        ExpandSettings: 1
+        MixingType: 0
+        Block: 0
+        Values:
+        - Nice
+        - Neutral
+        Probabilities:
+        - 0
+        - 0
+    - rid: 432041535833899010
+      type: {class: ParticipantVariableString, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Gender
+        VariableType: 3
+        DataType: 3
+        ExpandSettings: 1
+        Value: 
+        ConstrainValues: 1
+        Values:
+        - Female
+        - Male
+        - Other
+        PossibleValues: []
+    - rid: 432041535833899012
+      type: {class: ParticipantVariableInt, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Age
+        VariableType: 3
+        DataType: 1
+        ExpandSettings: 1
+        Value: 0
+        ConstrainValues: 0
+        Values: 
+        PossibleValues: 
+    - rid: 432041535833899014
+      type: {class: IndependentVariableString, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Teleportation
+        VariableType: 1
+        DataType: 3
+        ExpandSettings: 1
+        MixingType: 0
+        Block: 1
+        Values:
+        - Walking
+        - Teleport
+        Probabilities:
+        - 0
+        - 0

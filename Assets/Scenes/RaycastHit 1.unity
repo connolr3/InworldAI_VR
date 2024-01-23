@@ -3435,6 +3435,61 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014884144}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1015262683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1015262685}
+  - component: {fileID: 1015262684}
+  m_Layer: 0
+  m_Name: ProximityTeleportationStudyRunner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1015262684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015262683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56eaa2a4718d534889513419d5f484f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experimentDesignFile: {fileID: 11400000, guid: 544fac4635f0e7c4a831a1f67a281b2f,
+    type: 2}
+  scriptReferences:
+    DragTrialScriptHere: {fileID: 11500000, guid: 2bd6051f7e2331646b8d9eef4d0294fc,
+      type: 3}
+    DragBlockScriptHere: {fileID: 11500000, guid: 9d1ef69df8618b14881e70ff73f3d28b,
+      type: 3}
+    DragExperimentScriptHere: {fileID: 11500000, guid: 5710f85fd1fe78847b8f9736cb5bb333,
+      type: 3}
+  Ended: 0
+  Running: 0
+--- !u!4 &1015262685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015262683}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1022811814
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,7 +5876,7 @@ PrefabInstance:
     - target: {fileID: 7302546584579546134, guid: afdf1e2555bf88c4ba429b68294a6b9d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.134
+      value: -4.212
       objectReference: {fileID: 0}
     - target: {fileID: 7302546584579546134, guid: afdf1e2555bf88c4ba429b68294a6b9d,
         type: 3}
@@ -5831,7 +5886,7 @@ PrefabInstance:
     - target: {fileID: 7302546584579546134, guid: afdf1e2555bf88c4ba429b68294a6b9d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.841
+      value: -0.824
       objectReference: {fileID: 0}
     - target: {fileID: 7302546584579546134, guid: afdf1e2555bf88c4ba429b68294a6b9d,
         type: 3}
@@ -6885,3 +6940,4 @@ SceneRoots:
   - {fileID: 1244696990}
   - {fileID: 814027154}
   - {fileID: 394390859}
+  - {fileID: 1015262685}

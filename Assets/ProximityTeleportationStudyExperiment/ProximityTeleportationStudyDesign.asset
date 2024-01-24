@@ -23,7 +23,10 @@ MonoBehaviour:
     - rid: 432041535833899008
     - rid: 432041535833899009
     - rid: 432041535833899014
-    DependentVariables: []
+    DependentVariables:
+    - rid: 432041535833899015
+    - rid: 432041535833899016
+    - rid: 432041535833899017
     ParticipantVariables:
     - rid: 432041535833899010
     - rid: 432041535833899012
@@ -110,3 +113,33 @@ MonoBehaviour:
         Probabilities:
         - 0
         - 0
+    - rid: 432041535833899015
+      type: {class: DependentVariableInt, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: No_Teleports
+        VariableType: 2
+        DataType: 1
+        ExpandSettings: 1
+        Value: 0
+        DefaultValue: 0
+    - rid: 432041535833899016
+      type: {class: DependentVariableFloat, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Time_To_Engage
+        VariableType: 2
+        DataType: 2
+        ExpandSettings: 1
+        Value: 0
+        DefaultValue: 0
+    - rid: 432041535833899017
+      type: {class: DependentVariableFloat, ns: bmlTUX.Scripts.VariableSystem.VariableTypes,
+        asm: bmlTUX}
+      data:
+        Name: Time_Spent_Engaging
+        VariableType: 2
+        DataType: 2
+        ExpandSettings: 1
+        Value: 0
+        DefaultValue: 0
